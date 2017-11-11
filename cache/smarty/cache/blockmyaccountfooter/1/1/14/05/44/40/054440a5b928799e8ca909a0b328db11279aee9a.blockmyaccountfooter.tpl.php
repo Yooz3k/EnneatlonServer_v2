@@ -1,29 +1,21 @@
-<?php /*%%SmartyHeaderCode:14059769855a06059d207669-28400818%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:15419471355a071a95d42501-27688577%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '054440a5b928799e8ca909a0b328db11279aee9a' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/modules/blockmyaccountfooter/blockmyaccountfooter.tpl',
-      1 => 1510343703,
+      1 => 1510397724,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '14059769855a06059d207669-28400818',
-  'variables' => 
-  array (
-    'link' => 0,
-    'returnAllowed' => 0,
-    'voucherAllowed' => 0,
-    'HOOK_BLOCK_MY_ACCOUNT' => 0,
-    'is_logged' => 0,
-  ),
-  'has_nocache_code' => false,
+  'nocache_hash' => '15419471355a071a95d42501-27688577',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a06059d3fec78_65245192',
+  'unifunc' => 'content_5a073174c31b18_29967911',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a06059d3fec78_65245192')) {function content_5a06059d3fec78_65245192($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a073174c31b18_29967911')) {function content_5a073174c31b18_29967911($_smarty_tpl) {?>
 <!-- Block myaccount module -->
 <section class="footer-block col-xs-12 col-sm-4">
 	<h4><a href="http://192.168.99.100:8888/moje-konto" title="Zarządzaj moim kontem klienta" rel="nofollow">Moje konto</a></h4>

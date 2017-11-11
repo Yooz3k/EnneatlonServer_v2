@@ -1,44 +1,37 @@
-<?php /*%%SmartyHeaderCode:12916770175a06059d49a267-17883771%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:19646285235a071a95edc485-13903934%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '44a3ca6f70fb7cf18ad9ccaabb7c9b7695475dd2' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/modules/blockcontactinfos/blockcontactinfos.tpl',
-      1 => 1510343704,
+      1 => 1510397724,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '12916770175a06059d49a267-17883771',
-  'variables' => 
-  array (
-    'blockcontactinfos_company' => 0,
-    'blockcontactinfos_address' => 0,
-    'blockcontactinfos_phone' => 0,
-    'blockcontactinfos_email' => 0,
-  ),
-  'has_nocache_code' => false,
+  'nocache_hash' => '19646285235a071a95edc485-13903934',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a06059d598c07_10770382',
+  'unifunc' => 'content_5a073174cf2f04_06651982',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a06059d598c07_10770382')) {function content_5a06059d598c07_10770382($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a073174cf2f04_06651982')) {function content_5a073174cf2f04_06651982($_smarty_tpl) {?>
 <!-- MODULE Block contact infos -->
 <section id="block_contact_infos" class="footer-block col-xs-12 col-sm-4">
 	<div>
         <h4>Informacja o sklepie</h4>
         <ul class="toggle-footer">
                         	<li>
-            		<i class="icon-map-marker"></i>My Company, 42 Puffin street
-12345 Puffinville
-France            	</li>
+            		<i class="icon-map-marker"></i>Enneatlon, ul. Malborska 53
+03-286
+Polska            	</li>
                                     	<li>
             		<i class="icon-phone"></i>Skontaktuj się z nami: 
-            		<span>0123-456-789</span>
+            		<span>+48 (22)3337070</span>
             	</li>
                                     	<li>
             		<i class="icon-envelope-alt"></i>E-mail: 
-            		<span><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%73%61%6c%65%73@%79%6f%75%72%63%6f%6d%70%61%6e%79.%63%6f%6d" >&#x73;&#x61;&#x6c;&#x65;&#x73;&#x40;&#x79;&#x6f;&#x75;&#x72;&#x63;&#x6f;&#x6d;&#x70;&#x61;&#x6e;&#x79;&#x2e;&#x63;&#x6f;&#x6d;</a></span>
+            		<span><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%65%6e%6e%65%61%74%6c%6f%6e@%73%70%6f%72%74.%63%6f%6d" >&#x65;&#x6e;&#x6e;&#x65;&#x61;&#x74;&#x6c;&#x6f;&#x6e;&#x40;&#x73;&#x70;&#x6f;&#x72;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></span>
             	</li>
                     </ul>
     </div>
