@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-10 20:55:51
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-11 16:43:18
          compiled from "/var/www/html/themes/default-bootstrap/layout.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:18041066885a06044728e5e7-70017287%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:11950297825a071a961d0481-89677709%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '6766a18426098c8b08635b8ba110b8c090e75960' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/layout.tpl',
-      1 => 1510343701,
+      1 => 1510397724,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '18041066885a06044728e5e7-70017287',
+  'nocache_hash' => '11950297825a071a961d0481-89677709',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a0604472b9bb2_45165789',
+  'unifunc' => 'content_5a071a961f2998_87984193',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a0604472b9bb2_45165789')) {function content_5a0604472b9bb2_45165789($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a071a961f2998_87984193')) {function content_5a071a961f2998_87984193($_smarty_tpl) {?>
 <?php $_smarty_tpl->tpl_vars['left_column_size'] = new Smarty_variable(0, null, 0);?><?php $_smarty_tpl->tpl_vars['right_column_size'] = new Smarty_variable(0, null, 0);?>
 <?php if (isset($_smarty_tpl->tpl_vars['HOOK_LEFT_COLUMN']->value)&&trim($_smarty_tpl->tpl_vars['HOOK_LEFT_COLUMN']->value)&&!$_smarty_tpl->tpl_vars['hide_left_column']->value) {?><?php $_smarty_tpl->tpl_vars['left_column_size'] = new Smarty_variable(3, null, 0);?><?php }?>
 <?php if (isset($_smarty_tpl->tpl_vars['HOOK_RIGHT_COLUMN']->value)&&trim($_smarty_tpl->tpl_vars['HOOK_RIGHT_COLUMN']->value)&&!$_smarty_tpl->tpl_vars['hide_right_column']->value) {?><?php $_smarty_tpl->tpl_vars['right_column_size'] = new Smarty_variable(3, null, 0);?><?php }?>

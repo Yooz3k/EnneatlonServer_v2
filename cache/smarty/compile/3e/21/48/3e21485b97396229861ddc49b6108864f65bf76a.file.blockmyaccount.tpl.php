@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-10 20:55:58
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-11 16:51:30
          compiled from "/var/www/html/themes/default-bootstrap/modules/blockmyaccount/blockmyaccount.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:9262822555a06044ed524b4-12889280%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2697103955a071c82882314-56557579%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '3e21485b97396229861ddc49b6108864f65bf76a' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/modules/blockmyaccount/blockmyaccount.tpl',
-      1 => 1510343703,
+      1 => 1510397724,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '9262822555a06044ed524b4-12889280',
+  'nocache_hash' => '2697103955a071c82882314-56557579',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a06044ee582e1_88522965',
+  'unifunc' => 'content_5a071c828b8da6_89343081',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a06044ee582e1_88522965')) {function content_5a06044ee582e1_88522965($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a071c828b8da6_89343081')) {function content_5a071c828b8da6_89343081($_smarty_tpl) {?>
 
 <!-- Block myaccount module -->
 <div class="block myaccount-column">

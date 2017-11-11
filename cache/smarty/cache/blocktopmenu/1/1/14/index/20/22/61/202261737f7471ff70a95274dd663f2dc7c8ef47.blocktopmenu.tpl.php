@@ -1,27 +1,21 @@
-<?php /*%%SmartyHeaderCode:14180858695a06059b644cc6-15785880%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2800966215a071a93db6485-40933811%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '202261737f7471ff70a95274dd663f2dc7c8ef47' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/modules/blocktopmenu/blocktopmenu.tpl',
-      1 => 1510343704,
+      1 => 1510397724,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '14180858695a06059b644cc6-15785880',
-  'variables' => 
-  array (
-    'MENU' => 0,
-    'MENU_SEARCH' => 0,
-    'link' => 0,
-  ),
-  'has_nocache_code' => false,
+  'nocache_hash' => '2800966215a071a93db6485-40933811',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a06059b77c406_95037379',
+  'unifunc' => 'content_5a073284152824_88993852',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a06059b77c406_95037379')) {function content_5a06059b77c406_95037379($_smarty_tpl) {?>	<!-- Menu -->
+<?php if ($_valid && !is_callable('content_5a073284152824_88993852')) {function content_5a073284152824_88993852($_smarty_tpl) {?>	<!-- Menu -->
 	<div id="block_top_menu" class="sf-contener clearfix col-lg-12">
 		<div class="cat-title">Zakładki</div>
 		<ul class="sf-menu clearfix menu-content">
