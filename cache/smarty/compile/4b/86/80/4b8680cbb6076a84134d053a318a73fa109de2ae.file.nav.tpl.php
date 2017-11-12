@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-11 16:41:56
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-12 17:01:18
          compiled from "/var/www/html/adminroot/themes/default/template/nav.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:21314171155a071a44a89e88-05529773%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '4b8680cbb6076a84134d053a318a73fa109de2ae' => 
     array (
       0 => '/var/www/html/adminroot/themes/default/template/nav.tpl',
-      1 => 1510397727,
+      1 => 1510502373,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a071a44ac7935_53990820',
   'variables' => 
   array (
     'employee' => 0,
@@ -24,8 +26,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     't2' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a071a44ac7935_53990820',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a071a44ac7935_53990820')) {function content_5a071a44ac7935_53990820($_smarty_tpl) {?><div class="bootstrap">
 	<nav id="<?php if ($_smarty_tpl->tpl_vars['employee']->value->bo_menu) {?>nav-sidebar<?php } else { ?>nav-topbar<?php }?>" role="navigation">

@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '5130299935a071a9640f781-91339547',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a073174f16d51_83159560',
+  'unifunc' => 'content_5a0882423fee33_78203626',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a073174f16d51_83159560')) {function content_5a073174f16d51_83159560($_smarty_tpl) {?><a href="http://192.168.99.100:8888/" title="">
+<?php if ($_valid && !is_callable('content_5a0882423fee33_78203626')) {function content_5a0882423fee33_78203626($_smarty_tpl) {?><a href="http://192.168.99.100:8888/" title="">
 	<img class="img-responsive" src="http://192.168.99.100:8888/modules/blockbanner/img/sale70.png" alt="" title="" width="1170" height="65" />
 </a>
 <?php }} ?>
