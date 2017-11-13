@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-11 16:42:19
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-13 09:41:53
          compiled from "/var/www/html/adminroot/themes/default/template/controllers/modules/configuration_bar.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:4898731505a071a5bccced0-44365062%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '74fa3b80c14a44726235c9b391b0c64455b69aa8' => 
     array (
       0 => '/var/www/html/adminroot/themes/default/template/controllers/modules/configuration_bar.tpl',
-      1 => 1510397727,
+      1 => 1510562656,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a071a5bceb443_11227926',
   'variables' => 
   array (
     'module_name' => 0,
@@ -24,8 +26,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'shop_context' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a071a5bceb443_11227926',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a071a5bceb443_11227926')) {function content_5a071a5bceb443_11227926($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include '/var/www/html/tools/smarty/plugins/modifier.regex_replace.php';
 ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-12 17:01:25
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-13 09:43:18
          compiled from "/var/www/html/adminroot/themes/default/template/helpers/list/list_content.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:11295097475a071c110304c3-52557491%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7878af56a0e6ec374ffc6e0f863a09d4b99c6977' => 
     array (
       0 => '/var/www/html/adminroot/themes/default/template/helpers/list/list_content.tpl',
-      1 => 1510502373,
+      1 => 1510562659,
       2 => 'file',
     ),
   ),
@@ -83,13 +83,13 @@ _<?php if (isset($_smarty_tpl->tpl_vars['tr']->value['position']['position'])) {
 						<input type="checkbox" name="<?php echo $_smarty_tpl->tpl_vars['list_id']->value;?>
 Box[]" value="<?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['identifier']->value];?>
 "<?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['identifier']->value];?>
-<?php $_tmp2=ob_get_clean();?><?php if (isset($_smarty_tpl->tpl_vars['checked_boxes']->value)&&is_array($_smarty_tpl->tpl_vars['checked_boxes']->value)&&in_array($_tmp2,$_smarty_tpl->tpl_vars['checked_boxes']->value)) {?> checked="checked"<?php }?> class="noborder" />
+<?php $_tmp1=ob_get_clean();?><?php if (isset($_smarty_tpl->tpl_vars['checked_boxes']->value)&&is_array($_smarty_tpl->tpl_vars['checked_boxes']->value)&&in_array($_tmp1,$_smarty_tpl->tpl_vars['checked_boxes']->value)) {?> checked="checked"<?php }?> class="noborder" />
 					<?php }?>
 				<?php } else { ?>
 					<input type="checkbox" name="<?php echo $_smarty_tpl->tpl_vars['list_id']->value;?>
 Box[]" value="<?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['identifier']->value];?>
 "<?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['identifier']->value];?>
-<?php $_tmp3=ob_get_clean();?><?php if (isset($_smarty_tpl->tpl_vars['checked_boxes']->value)&&is_array($_smarty_tpl->tpl_vars['checked_boxes']->value)&&in_array($_tmp3,$_smarty_tpl->tpl_vars['checked_boxes']->value)) {?> checked="checked"<?php }?> class="noborder" />
+<?php $_tmp2=ob_get_clean();?><?php if (isset($_smarty_tpl->tpl_vars['checked_boxes']->value)&&is_array($_smarty_tpl->tpl_vars['checked_boxes']->value)&&in_array($_tmp2,$_smarty_tpl->tpl_vars['checked_boxes']->value)) {?> checked="checked"<?php }?> class="noborder" />
 				<?php }?>
 			</td>
 		<?php }?>
