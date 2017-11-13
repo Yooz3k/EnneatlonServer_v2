@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-13 09:41:00
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-13 13:44:27
          compiled from "/var/www/html/modules/dashproducts/views/templates/hook/dashboard_zone_two.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1555070115a08704d1434e9-75464070%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c0eed3b9df923c327f1706674c280218aa7eaf99' => 
     array (
       0 => '/var/www/html/modules/dashproducts/views/templates/hook/dashboard_zone_two.tpl',
-      1 => 1510562648,
+      1 => 1510576945,
       2 => 'file',
     ),
   ),

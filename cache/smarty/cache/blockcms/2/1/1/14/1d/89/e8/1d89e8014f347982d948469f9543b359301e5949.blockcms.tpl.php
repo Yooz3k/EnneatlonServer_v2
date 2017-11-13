@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '14025616595a071a95b45194-41455414',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a0975afd0a903_33640387',
+  'unifunc' => 'content_5a099e4ba49019_42629374',
   'has_nocache_code' => true,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a0975afd0a903_33640387')) {function content_5a0975afd0a903_33640387($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a099e4ba49019_42629374')) {function content_5a099e4ba49019_42629374($_smarty_tpl) {?>
 	<!-- Block CMS module footer -->
 	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 		<h4>Informacja</h4>
@@ -25,17 +25,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						Promocje
 					</a>
 				</li>
-									<li class="item">
-				<a href="http://192.168.99.100:8888/nowe-produkty" title="Nowe produkty">
-					Nowe produkty
-				</a>
-			</li>
-										<li class="item">
-					<a href="http://192.168.99.100:8888/najczesciej-kupowane" title="Najczęściej kupowane">
-						Najczęściej kupowane
-					</a>
-				</li>
-										<li class="item">
+																<li class="item">
 					<a href="http://192.168.99.100:8888/sklepy" title="Nasze sklepy">
 						Nasze sklepy
 					</a>

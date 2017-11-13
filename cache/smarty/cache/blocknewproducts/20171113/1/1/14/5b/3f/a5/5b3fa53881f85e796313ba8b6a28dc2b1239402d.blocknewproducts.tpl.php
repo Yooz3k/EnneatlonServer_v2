@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '14042753125a071aa5bfa962-52458245',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a0975af224778_58726026',
+  'unifunc' => 'content_5a09a2b0018087_44811341',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a0975af224778_58726026')) {function content_5a0975af224778_58726026($_smarty_tpl) {?><!-- MODULE Block new products -->
+<?php if ($_valid && !is_callable('content_5a09a2b0018087_44811341')) {function content_5a09a2b0018087_44811341($_smarty_tpl) {?><!-- MODULE Block new products -->
 <div id="new-products_block_right" class="block products_block">
 	<h4 class="title_block">
     	<a href="http://192.168.99.100:8888/nowe-produkty" title="Nowe produkty">Nowe produkty</a>

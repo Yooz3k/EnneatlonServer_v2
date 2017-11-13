@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-13 09:59:13
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-13 13:47:32
          compiled from "/var/www/html/modules/bankwire/views/templates/hook/infos.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:13854725825a095ee1981f94-78644055%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b9ad1a6d6537d67adb4fa1c39bc9fb36467fd48b' => 
     array (
       0 => '/var/www/html/modules/bankwire/views/templates/hook/infos.tpl',
-      1 => 1510562636,
+      1 => 1510576947,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
   'unifunc' => 'content_5a095ee1afa138_90270988',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a095ee1afa138_90270988')) {function content_5a095ee1afa138_90270988($_smarty_tpl) {?>
 
