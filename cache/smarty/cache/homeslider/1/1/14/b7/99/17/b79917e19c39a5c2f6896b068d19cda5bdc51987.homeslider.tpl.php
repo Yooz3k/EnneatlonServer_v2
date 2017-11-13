@@ -11,36 +11,52 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '13817312205a071a968d2d45-20014174',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a099eb4951d85_57836069',
+  'unifunc' => 'content_5a0a1bcfa5f450_74346960',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a099eb4951d85_57836069')) {function content_5a099eb4951d85_57836069($_smarty_tpl) {?><!-- Module HomeSlider -->
+<?php if ($_valid && !is_callable('content_5a0a1bcfa5f450_74346960')) {function content_5a0a1bcfa5f450_74346960($_smarty_tpl) {?><!-- Module HomeSlider -->
     		<div id="homepage-slider">
-						<ul id="homeslider" style="max-height:448px;">
+						<ul id="homeslider" style="max-height:673px;">
 															<li class="homeslider-container">
-							<a href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v16_homeslider&amp;utm_campaign=back-office-PL&amp;utm_content=download" title="sample-1">
-								<img src="http://192.168.99.100:8888/modules/homeslider/images/sample-1.jpg" width="779" height="448" alt="sample-1" />
+							<a href="http://192.168.99.100:8888/12-odziez-damska-fitness" title="kobieta-fitness">
+								<img src="http://192.168.99.100:8888/modules/homeslider/images/71f95c8577fd6347b8d2413bbb38eee9661204d9_fitness-gym-wallpapergym-girl-fitness-blog-health-tips-fitness-or-health-guide-3 .jpg" width="1015" height="673" alt="kobieta-fitness" />
 							</a>
-															<div class="homeslider-description"><h2>EXCEPTEUR<br />OCCAECAT</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique in tortor et dignissim. Quisque non tempor leo. Maecenas egestas sem elit</p>
-				<p><button class="btn btn-default" type="button">Shop now !</button></p></div>
+															<div class="homeslider-description"><h1><a id="a"></a>                                     <span style="color:#ffffff;">BĄDŹ GOTOWA</span></h1>
+<h1><span style="color:#ffffff;"><a></a>                                     NA TRENING           </span>                         </h1></div>
 													</li>
 																				<li class="homeslider-container">
-							<a href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v16_homeslider&amp;utm_campaign=back-office-PL&amp;utm_content=download" title="sample-2">
-								<img src="http://192.168.99.100:8888/modules/homeslider/images/sample-2.jpg" width="779" height="448" alt="sample-2" />
+							<a href="http://192.168.99.100:8888/3-bieganie-fitness" title="bieganie">
+								<img src="http://192.168.99.100:8888/modules/homeslider/images/80b01f6295d59189505f3cd045e6964d173f810a_biegacze1.jpg" width="938" height="630" alt="bieganie" />
 							</a>
-															<div class="homeslider-description"><h2>EXCEPTEUR<br />OCCAECAT</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique in tortor et dignissim. Quisque non tempor leo. Maecenas egestas sem elit</p>
-				<p><button class="btn btn-default" type="button">Shop now !</button></p></div>
+															<div class="homeslider-description"><h2></h2>
+<h1 style="text-align:right;"> BIEGAJ</h1>
+<h1 style="text-align:right;"><a></a> Z NAMI</h1>
+<p></p>
+<p style="text-align:right;"><button class="btn btn-default" type="button">KUP TERAZ!</button></p></div>
 													</li>
 																				<li class="homeslider-container">
-							<a href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v16_homeslider&amp;utm_campaign=back-office-PL&amp;utm_content=download" title="sample-3">
-								<img src="http://192.168.99.100:8888/modules/homeslider/images/sample-3.jpg" width="779" height="448" alt="sample-3" />
+							<a href="http://192.168.99.100:8888/6-rowery" title="rowery-dla-calej-rodziny">
+								<img src="http://192.168.99.100:8888/modules/homeslider/images/bb76a9f9e465b3952d6378b517a23ecea0ff9ca9_jazda-na-rowerze.jpg" width="1300" height="866" alt="rowery-dla-calej-rodziny" />
 							</a>
-															<div class="homeslider-description"><h2>EXCEPTEUR<br />OCCAECAT</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique in tortor et dignissim. Quisque non tempor leo. Maecenas egestas sem elit</p>
-				<p><button class="btn btn-default" type="button">Shop now !</button></p></div>
+															<div class="homeslider-description"><h1></h1>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<h1 style="text-align:center;">          <span style="color:#000000;"><span style="background-color:#4a4a4a;color:#ffffff;">ROWERY DLA CAŁEJ RODZINY</span></span></h1></div>
 													</li>
 												</ul>
 		</div>

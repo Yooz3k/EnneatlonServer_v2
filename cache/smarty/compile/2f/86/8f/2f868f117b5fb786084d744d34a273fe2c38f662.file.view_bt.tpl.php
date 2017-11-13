@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-13 10:28:37
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-13 23:00:37
          compiled from "/var/www/html/modules/gamification/views/templates/admin/gamification/helpers/view/view_bt.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:11846238025a0965c59b8431-29419478%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2f868f117b5fb786084d744d34a273fe2c38f662' => 
     array (
       0 => '/var/www/html/modules/gamification/views/templates/admin/gamification/helpers/view/view_bt.tpl',
-      1 => 1510562643,
+      1 => 1510595794,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a0965c5b569d5_60685728',
   'variables' => 
   array (
     'current_level_percent' => 0,
@@ -25,8 +27,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'badge' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a0965c5b569d5_60685728',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a0965c5b569d5_60685728')) {function content_5a0965c5b569d5_60685728($_smarty_tpl) {?>
 <script>

@@ -10,6 +10,7 @@ $_FIELDS['Address_81e70cb16ec45f5ab19bb6638e8e6c2d'] = 'adres1';
 $_FIELDS['Address_8ad75c5a8821cc294f189181722acb56'] = 'nazwisko';
 $_FIELDS['Address_93c731f1c3a84ef05cd54d044c379eaa'] = 'Firma';
 $_FIELDS['Address_d56f5e97524d5d1ad77ec197ae11dad0'] = 'dni';
+$_FIELDS['Address_da602f0b162fccbf6b150cfcfc7a7379'] = 'usunięte';
 $_FIELDS['Address_e90ebd9556fa4031171f043013794b61'] = 'kod pocztowy';
 $_FIELDS['Address_eec0a9661213354fa7a52519eea3f827'] = 'nr_vat';
 $_FIELDS['Address_f669f8e9f6599d0dfcd613bc6e2f347e'] = 'adres2';

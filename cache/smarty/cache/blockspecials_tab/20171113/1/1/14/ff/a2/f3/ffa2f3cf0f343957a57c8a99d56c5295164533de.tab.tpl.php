@@ -11,9 +11,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '20186512455a071a94e92786-19560334',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a099eb2ef6907_95614933',
+  'unifunc' => 'content_5a0a1bcf43b9e1_38742331',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a099eb2ef6907_95614933')) {function content_5a099eb2ef6907_95614933($_smarty_tpl) {?><li><a data-toggle="tab" href="#blockspecials" class="blockspecials">Promocje</a></li>
+<?php if ($_valid && !is_callable('content_5a0a1bcf43b9e1_38742331')) {function content_5a0a1bcf43b9e1_38742331($_smarty_tpl) {?><li><a data-toggle="tab" href="#blockspecials" class="blockspecials">Promocje</a></li>
 <?php }} ?>
