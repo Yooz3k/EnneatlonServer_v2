@@ -70,13 +70,13 @@
 						<span class="new-label">{l s='New'}</span>
 					</span>
 				{/if}
-				{if $product->on_sale}
+				<!--{if $product->on_sale}
 					<span class="sale-box no-print">
-						<span class="sale-label">{l s='Sale!'}</span>
+						<span class="sale-label" style="visibility:hidden;display:none"></span>
 					</span>
 				{elseif $product->specificPrice && $product->specificPrice.reduction && $productPriceWithoutReduction > $productPrice}
 					<span class="discount">{l s='Reduced price!'}</span>
-				{/if}
+				{/if}-->
 				{if $have_image}
 					<span id="view_full_size">
 						{if $jqZoomEnabled && $have_image && !$content_only}

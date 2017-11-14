@@ -1,28 +1,26 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-13 22:06:57
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-14 10:41:49
          compiled from "/var/www/html/adminroot/themes/default/template/controllers/themes/helpers/options/options.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:17356920955a071c0d40f9a6-25244831%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:299778385a0aba5dea4ae3-53662459%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'bd7ed785f81c221ef6c14a93678901dbb665506e' => 
     array (
       0 => '/var/www/html/adminroot/themes/default/template/controllers/themes/helpers/options/options.tpl',
-      1 => 1510595805,
+      1 => 1510648834,
       2 => 'file',
     ),
     'a099a5d0bbe2f130f8d1e30b28b3937c17908d36' => 
     array (
       0 => '/var/www/html/adminroot/themes/default/template/helpers/options/options.tpl',
-      1 => 1510595805,
+      1 => 1510648835,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '17356920955a071c0d40f9a6-25244831',
+  'nocache_hash' => '299778385a0aba5dea4ae3-53662459',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a071c0d70ac41_42718119',
   'variables' => 
   array (
     'current_id_lang' => 0,
@@ -54,8 +52,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'hookName' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a0aba5e531d91_60999009',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a071c0d70ac41_42718119')) {function content_5a071c0d70ac41_42718119($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/var/www/html/tools/smarty/plugins/function.counter.php';
+<?php if ($_valid && !is_callable('content_5a0aba5e531d91_60999009')) {function content_5a0aba5e531d91_60999009($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/var/www/html/tools/smarty/plugins/function.counter.php';
 if (!is_callable('smarty_modifier_escape')) include '/var/www/html/tools/smarty/plugins/modifier.escape.php';
 if (!is_callable('smarty_modifier_replace')) include '/var/www/html/tools/smarty/plugins/modifier.replace.php';
 ?>

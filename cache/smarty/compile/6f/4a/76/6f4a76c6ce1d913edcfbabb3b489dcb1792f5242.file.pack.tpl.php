@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-13 19:17:29
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-14 10:31:45
          compiled from "/var/www/html/adminroot/themes/default/template/controllers/products/pack.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:16723334875a087f128891a4-95018329%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:11065871325a0ab8016de9a7-91229483%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '6f4a76c6ce1d913edcfbabb3b489dcb1792f5242' => 
     array (
       0 => '/var/www/html/adminroot/themes/default/template/controllers/products/pack.tpl',
-      1 => 1510595804,
+      1 => 1510648833,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '16723334875a087f128891a4-95018329',
+  'nocache_hash' => '11065871325a0ab8016de9a7-91229483',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a087f12a0dbc6_03384953',
   'variables' => 
   array (
     'pack_items' => 0,
@@ -26,8 +24,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'input_namepack_items' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a0ab801a99c98_96189322',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a087f12a0dbc6_03384953')) {function content_5a087f12a0dbc6_03384953($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a0ab801a99c98_96189322')) {function content_5a0ab801a99c98_96189322($_smarty_tpl) {?>
 
 <input type="hidden" name="submitted_tabs[]" value="Pack" />
 <hr />

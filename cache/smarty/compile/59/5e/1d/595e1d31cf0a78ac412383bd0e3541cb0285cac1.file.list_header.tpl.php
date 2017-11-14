@@ -1,28 +1,26 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-13 19:17:30
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-14 10:31:47
          compiled from "/var/www/html/adminroot/themes/default/template/controllers/products/combination/helpers/list/list_header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:9067558965a087fe7289302-34933819%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:19711779335a0ab803d1cef9-59228956%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '595e1d31cf0a78ac412383bd0e3541cb0285cac1' => 
     array (
       0 => '/var/www/html/adminroot/themes/default/template/controllers/products/combination/helpers/list/list_header.tpl',
-      1 => 1510595804,
+      1 => 1510648833,
       2 => 'file',
     ),
     '0d8271c8a88e90c57b1697308a1a8791c4b4d0c6' => 
     array (
       0 => '/var/www/html/adminroot/themes/default/template/helpers/list/list_header.tpl',
-      1 => 1510595805,
+      1 => 1510648835,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '9067558965a087fe7289302-34933819',
+  'nocache_hash' => '19711779335a0ab803d1cef9-59228956',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a087fe8807923_74579697',
   'variables' => 
   array (
     'ajax' => 0,
@@ -70,8 +68,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'filters_has_value' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a0ab805327b90_97852193',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a087fe8807923_74579697')) {function content_5a087fe8807923_74579697($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include '/var/www/html/tools/smarty/plugins/function.math.php';
+<?php if ($_valid && !is_callable('content_5a0ab805327b90_97852193')) {function content_5a0ab805327b90_97852193($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include '/var/www/html/tools/smarty/plugins/function.math.php';
 ?>
 <?php if ($_smarty_tpl->tpl_vars['ajax']->value) {?>
 	<script type="text/javascript">

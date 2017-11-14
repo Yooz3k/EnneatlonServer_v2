@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-12 16:42:01
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-14 10:40:09
          compiled from "/var/www/html/themes/default-bootstrap/product.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:6510758685a086bc9f00968-01079866%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:6677964425a0ab9f97d27a0-42486972%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0547670518001aa56aedd940c406a15b33734576' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/product.tpl',
-      1 => 1510501132,
+      1 => 1510652312,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '6510758685a086bc9f00968-01079866',
+  'nocache_hash' => '6677964425a0ab9f97d27a0-42486972',
   'function' => 
   array (
   ),
@@ -111,9 +111,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a086bcb0b0bb4_48617497',
+  'unifunc' => 'content_5a0ab9fa160ea0_08323415',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a086bcb0b0bb4_48617497')) {function content_5a086bcb0b0bb4_48617497($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/var/www/html/tools/smarty/plugins/modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_5a0ab9fa160ea0_08323415')) {function content_5a0ab9fa160ea0_08323415($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/var/www/html/tools/smarty/plugins/modifier.date_format.php';
 if (!is_callable('smarty_function_math')) include '/var/www/html/tools/smarty/plugins/function.math.php';
 if (!is_callable('smarty_function_cycle')) include '/var/www/html/tools/smarty/plugins/function.cycle.php';
 if (!is_callable('smarty_function_counter')) include '/var/www/html/tools/smarty/plugins/function.counter.php';
@@ -174,15 +174,14 @@ if (!is_callable('smarty_function_counter')) include '/var/www/html/tools/smarty
 </span>
 					</span>
 				<?php }?>
-				<?php if ($_smarty_tpl->tpl_vars['product']->value->on_sale) {?>
+				<!--<?php if ($_smarty_tpl->tpl_vars['product']->value->on_sale) {?>
 					<span class="sale-box no-print">
-						<span class="sale-label"><?php echo smartyTranslate(array('s'=>'Sale!'),$_smarty_tpl);?>
-</span>
+						<span class="sale-label" style="visibility:hidden;display:none"></span>
 					</span>
 				<?php } elseif ($_smarty_tpl->tpl_vars['product']->value->specificPrice&&$_smarty_tpl->tpl_vars['product']->value->specificPrice['reduction']&&$_smarty_tpl->tpl_vars['productPriceWithoutReduction']->value>$_smarty_tpl->tpl_vars['productPrice']->value) {?>
 					<span class="discount"><?php echo smartyTranslate(array('s'=>'Reduced price!'),$_smarty_tpl);?>
 </span>
-				<?php }?>
+				<?php }?>-->
 				<?php if ($_smarty_tpl->tpl_vars['have_image']->value) {?>
 					<span id="view_full_size">
 						<?php if ($_smarty_tpl->tpl_vars['jqZoomEnabled']->value&&$_smarty_tpl->tpl_vars['have_image']->value&&!$_smarty_tpl->tpl_vars['content_only']->value) {?>
@@ -859,7 +858,7 @@ $_smarty_tpl->tpl_vars['accessory']->_loop = true;
 											<?php if (!$_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value&&($_smarty_tpl->tpl_vars['accessory']->value['allow_oosp']||$_smarty_tpl->tpl_vars['accessory']->value['quantity']>0)&&isset($_smarty_tpl->tpl_vars['add_prod_display']->value)&&$_smarty_tpl->tpl_vars['add_prod_display']->value==1) {?>
 												<div class="no-print">
 													<a class="exclusive button ajax_add_to_cart_button" href="<?php ob_start();?><?php echo intval($_smarty_tpl->tpl_vars['accessory']->value['id_product']);?>
-<?php $_tmp61=ob_get_clean();?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('cart',true,null,"qty=1&amp;id_product=".$_tmp61."&amp;token=".((string)$_smarty_tpl->tpl_vars['static_token']->value)."&amp;add"), ENT_QUOTES, 'UTF-8', true);?>
+<?php $_tmp1=ob_get_clean();?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('cart',true,null,"qty=1&amp;id_product=".$_tmp1."&amp;token=".((string)$_smarty_tpl->tpl_vars['static_token']->value)."&amp;add"), ENT_QUOTES, 'UTF-8', true);?>
 " data-id-product="<?php echo intval($_smarty_tpl->tpl_vars['accessory']->value['id_product']);?>
 " title="<?php echo smartyTranslate(array('s'=>'Add to cart'),$_smarty_tpl);?>
 ">
