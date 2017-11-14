@@ -1,29 +1,37 @@
-<?php /*%%SmartyHeaderCode:18012788185a0ab459204014-78429774%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:91518985a0af7b217b100-25291956%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '44a3ca6f70fb7cf18ad9ccaabb7c9b7695475dd2' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/modules/blockcontactinfos/blockcontactinfos.tpl',
-      1 => 1510648823,
+      1 => 1510664496,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '18012788185a0ab459204014-78429774',
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a0abb29962774_20971811',
+  'nocache_hash' => '91518985a0af7b217b100-25291956',
+  'variables' => 
+  array (
+    'blockcontactinfos_company' => 0,
+    'blockcontactinfos_address' => 0,
+    'blockcontactinfos_phone' => 0,
+    'blockcontactinfos_email' => 0,
+  ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a0af7b23228d8_26008832',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a0abb29962774_20971811')) {function content_5a0abb29962774_20971811($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a0af7b23228d8_26008832')) {function content_5a0af7b23228d8_26008832($_smarty_tpl) {?>
 <!-- MODULE Block contact infos -->
 <section id="block_contact_infos" class="footer-block col-xs-12 col-sm-4">
 	<div>
         <h4>Informacja o sklepie</h4>
         <ul class="toggle-footer">
                         	<li>
-            		<i class="icon-map-marker"></i>Enneatlon, ul. Malborska 53
+            		<i class="icon-map-marker"></i>Enneatlon, ul. Malborska 53,
 03-286
+Warszawa,
 Polska            	</li>
                                     	<li>
             		<i class="icon-phone"></i>Skontaktuj się z nami: 

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-14 10:11:40
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-14 15:03:17
          compiled from "/var/www/html/modules/blockcategories/views/blockcategories_admin.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:8415060235a0ab34c3808f6-74270254%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:10268750005a0af7a5d28b12-73064038%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '5c5a265bd6e65c8026dd5feba9bdbb63edfefdf3' => 
     array (
       0 => '/var/www/html/modules/blockcategories/views/blockcategories_admin.tpl',
-      1 => 1510648814,
+      1 => 1510664480,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '8415060235a0ab34c3808f6-74270254',
+  'nocache_hash' => '10268750005a0af7a5d28b12-73064038',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a0ab34c3930d6_82186842',
+  'unifunc' => 'content_5a0af7a5d3cc35_96282490',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a0ab34c3930d6_82186842')) {function content_5a0ab34c3930d6_82186842($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a0af7a5d3cc35_96282490')) {function content_5a0af7a5d3cc35_96282490($_smarty_tpl) {?>
 <div class="form-group">
 	<label class="control-label col-lg-3">
 		<span class="label-tooltip" data-toggle="tooltip" data-html="true" title="" data-original-title="<?php echo smartyTranslate(array('s'=>'In the default theme, these images will be displayed in the top horizontal menu; but only if the category is one of the first level (see Top horizontal menu module for more info).','mod'=>'blockcategories'),$_smarty_tpl);?>

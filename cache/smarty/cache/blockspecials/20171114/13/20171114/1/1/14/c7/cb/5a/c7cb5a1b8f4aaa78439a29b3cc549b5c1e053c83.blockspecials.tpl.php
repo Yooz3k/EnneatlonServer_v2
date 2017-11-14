@@ -1,21 +1,30 @@
-<?php /*%%SmartyHeaderCode:1512004725a0ab4684cd051-61138581%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:13002390845a0af7adb03512-59364521%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c7cb5a1b8f4aaa78439a29b3cc549b5c1e053c83' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/modules/blockspecials/blockspecials.tpl',
-      1 => 1510648823,
+      1 => 1510664496,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1512004725a0ab4684cd051-61138581',
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a0abbfc475387_24243005',
+  'nocache_hash' => '13002390845a0af7adb03512-59364521',
+  'variables' => 
+  array (
+    'link' => 0,
+    'special' => 0,
+    'PS_CATALOG_MODE' => 0,
+    'priceDisplay' => 0,
+    'specific_prices' => 0,
+    'priceWithoutReduction_tax_excl' => 0,
+  ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a0af7add87141_14112300',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a0abbfc475387_24243005')) {function content_5a0abbfc475387_24243005($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a0af7add87141_14112300')) {function content_5a0af7add87141_14112300($_smarty_tpl) {?>
 <!-- MODULE Block specials -->
 <div id="special_block_right" class="block">
 	<p class="title_block">
@@ -26,28 +35,28 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<div class="block_content products-block">
     		<ul>
         	<li class="clearfix">
-            	<a class="products-block-image" href="http://192.168.99.100:8888/rowery-gorskie/621-rower-mtb-rockrider-540-275-.html">
+            	<a class="products-block-image" href="http://192.168.99.100:8888/odziez-rowerowa-damska/559-ciepla-kurtka-miejska-900.html">
                     <img 
                     class="replace-2x img-responsive" 
-                    src="http://192.168.99.100:8888/622-small_default/rower-mtb-rockrider-540-275-.jpg" 
+                    src="http://192.168.99.100:8888/560-small_default/ciepla-kurtka-miejska-900.jpg" 
                     alt="" 
-                    title="ROWER MTB ROCKRIDER 540 27,5&#039;&#039;" />
+                    title="CIEPŁA KURTKA MIEJSKA 900" />
                 </a>
                 <div class="product-content">
                 	<h5>
-                        <a class="product-name" href="http://192.168.99.100:8888/rowery-gorskie/621-rower-mtb-rockrider-540-275-.html" title="ROWER MTB ROCKRIDER 540 27,5&#039;&#039;">
-                            ROWER MTB ROCKRIDER 540 27,5&#039;&#039;
+                        <a class="product-name" href="http://192.168.99.100:8888/odziez-rowerowa-damska/559-ciepla-kurtka-miejska-900.html" title="CIEPŁA KURTKA MIEJSKA 900">
+                            CIEPŁA KURTKA MIEJSKA 900
                         </a>
                     </h5>
                                         	<p class="product-description">
-                            Przeznaczenie: do regularnej jazdy...
+                            Przeznaczenie: do ochrony rowerzysty...
                         </p>
                                         <div class="price-box">
                     	                        	<span class="price special-price">
-                                                                    1 538,19 zł                            </span>
-                                                                                                                                 <span class="price-percent-reduction">-19%</span>
+                                                                    137,99 zł                            </span>
+                                                                                                                                 <span class="price-percent-reduction">-31%</span>
                                                                                          <span class="old-price">
-                                                                    1 899,00 zł                            </span>
+                                                                    199,99 zł                            </span>
                             
                                             </div>
                 </div>
