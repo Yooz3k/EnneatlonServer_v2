@@ -1,28 +1,21 @@
-<?php /*%%SmartyHeaderCode:91518985a0af7b217b100-25291956%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:642970155a21544aec8fc7-00085619%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '44a3ca6f70fb7cf18ad9ccaabb7c9b7695475dd2' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/modules/blockcontactinfos/blockcontactinfos.tpl',
-      1 => 1510664496,
+      1 => 1512131813,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '91518985a0af7b217b100-25291956',
-  'variables' => 
-  array (
-    'blockcontactinfos_company' => 0,
-    'blockcontactinfos_address' => 0,
-    'blockcontactinfos_phone' => 0,
-    'blockcontactinfos_email' => 0,
-  ),
-  'has_nocache_code' => false,
+  'nocache_hash' => '642970155a21544aec8fc7-00085619',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a0af7b23228d8_26008832',
+  'unifunc' => 'content_5a21574d709f70_97121414',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a0af7b23228d8_26008832')) {function content_5a0af7b23228d8_26008832($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a21574d709f70_97121414')) {function content_5a21574d709f70_97121414($_smarty_tpl) {?>
 <!-- MODULE Block contact infos -->
 <section id="block_contact_infos" class="footer-block col-xs-12 col-sm-4">
 	<div>

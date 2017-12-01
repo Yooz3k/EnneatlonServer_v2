@@ -1,23 +1,23 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-14 15:04:04
+<?php /* Smarty version Smarty-3.1.19, created on 2017-12-01 14:19:52
          compiled from "/var/www/html/adminroot/themes/default/template/controllers/categories/helpers/list/list_header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:7873587135a0af7d481d4a6-53722852%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:17061887445a2156f804e135-89901518%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0b6df30d5c375d0153e783b20640862f03985e47' => 
     array (
       0 => '/var/www/html/adminroot/themes/default/template/controllers/categories/helpers/list/list_header.tpl',
-      1 => 1510664429,
+      1 => 1512131843,
       2 => 'file',
     ),
     '0d8271c8a88e90c57b1697308a1a8791c4b4d0c6' => 
     array (
       0 => '/var/www/html/adminroot/themes/default/template/helpers/list/list_header.tpl',
-      1 => 1510664432,
+      1 => 1512131844,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '7873587135a0af7d481d4a6-53722852',
+  'nocache_hash' => '17061887445a2156f804e135-89901518',
   'function' => 
   array (
   ),
@@ -69,9 +69,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a0af7d4d0be26_22337753',
+  'unifunc' => 'content_5a2156f82042b9_28644270',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a0af7d4d0be26_22337753')) {function content_5a0af7d4d0be26_22337753($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include '/var/www/html/tools/smarty/plugins/function.math.php';
+<?php if ($_valid && !is_callable('content_5a2156f82042b9_28644270')) {function content_5a2156f82042b9_28644270($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include '/var/www/html/tools/smarty/plugins/function.math.php';
 ?>
 <?php if ($_smarty_tpl->tpl_vars['ajax']->value) {?>
 	<script type="text/javascript">
