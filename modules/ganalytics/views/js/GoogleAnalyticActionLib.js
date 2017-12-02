@@ -76,19 +76,19 @@ var GoogleAnalyticEnhancedECommerce = {
 	addProductDetailView: function(Product) {
 		this.add(Product);
 		ga('ec:setAction', 'detail');
-		ga('send', 'event', 'UX', 'detail', 'Product Detail View',{'nonInteraction': 1});
+		ga('send', 'event', 'Produkty', 'Wyświetlenie strony produktu ' + Product.name, Product.name + ", ID (" + Product.id + ")",{'nonInteraction': 1});
 	},
 
 	addToCart: function(Product) {
 		this.add(Product);
 		ga('ec:setAction', 'add');
-		ga('send', 'event', 'UX', 'click', 'Add to Cart'); // Send data using an event.
+		ga('send', 'event', 'Koszyk', 'Dodanie do koszyka produktu ' + Product.name, Product.name + ", ID (" + Product.id + ")", Product.price); // Send data using an event.
 	},
 
 	removeFromCart: function(Product) {
 		this.add(Product);
 		ga('ec:setAction', 'remove');
-		ga('send', 'event', 'UX', 'click', 'Remove From cart'); // Send data using an event.
+		ga('send', 'event', 'Koszyk', 'Usunięcie z koszyka produktu ' + Product.name, Product.name + ", ID (" + Product.id + ")", Product.price); // Send data using an event.
 	},
 
 	addProductImpression: function(Product) {
@@ -105,7 +105,7 @@ var GoogleAnalyticEnhancedECommerce = {
 		ga('ec:setAction', 'refund', {
 			'id': Order.id // Transaction ID is only required field for full refund.
 		});
-		ga('send', 'event', 'Ecommerce', 'Refund', {'nonInteraction': 1});
+		ga('send', 'event', 'Zamówienia', 'Żądanie zwrotu pieniędzy za zamówienie nr ' + Order.id, Order.id, {'nonInteraction': 1});
 	},
 
 	refundByProduct: function(Order) {
@@ -117,7 +117,7 @@ var GoogleAnalyticEnhancedECommerce = {
 		ga('ec:setAction', 'refund', {
 			'id': Order.id, // Transaction ID is required for partial refund.
 		});
-		ga('send', 'event', 'Ecommerce', 'Refund', {'nonInteraction': 1});
+		ga('send', 'event', 'Zamówienia', 'Żądanie zwrotu pieniędzy za produkt ' + Product.name, Product.name, {'nonInteraction': 1});
 	},
 
 	addProductClick: function(Product) {
