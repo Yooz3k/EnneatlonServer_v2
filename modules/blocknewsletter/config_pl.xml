@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
 	<name>blocknewsletter</name>
-	<displayName><![CDATA[Newsletter block]]></displayName>
+	<displayName><![CDATA[Blok newslettera]]></displayName>
 	<version><![CDATA[2.3.2]]></version>
-	<description><![CDATA[Adds a block for newsletter subscription.]]></description>
+	<description><![CDATA[Dodaje blok subskrypcji newslettera.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>
-	<confirmUninstall><![CDATA[Are you sure that you want to delete all of your contacts?]]></confirmUninstall>
+	<confirmUninstall><![CDATA[Czy na pewno chcesz usunąć wszystkie kontakty?]]></confirmUninstall>
 	<is_configurable>1</is_configurable>
 	<need_instance>0</need_instance>
 	<limited_countries></limited_countries>
