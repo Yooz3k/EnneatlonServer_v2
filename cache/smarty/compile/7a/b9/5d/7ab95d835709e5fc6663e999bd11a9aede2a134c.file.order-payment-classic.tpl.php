@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-14 17:50:49
+<?php /* Smarty version Smarty-3.1.19, created on 2017-12-03 18:27:12
          compiled from "/var/www/html/themes/default-bootstrap/order-payment-classic.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:15483905705a0b1ee99cd018-46699194%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7ab95d835709e5fc6663e999bd11a9aede2a134c' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/order-payment-classic.tpl',
-      1 => 1510664498,
+      1 => 1512313618,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a0b1ee9f2c993_93944704',
   'variables' => 
   array (
     'HOOK_TOP_PAYMENT' => 0,
@@ -66,8 +68,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'discount' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a0b1ee9f2c993_93944704',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a0b1ee9f2c993_93944704')) {function content_5a0b1ee9f2c993_93944704($_smarty_tpl) {?>
 <div class="paiement_block">

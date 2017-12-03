@@ -5,17 +5,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b79917e19c39a5c2f6896b068d19cda5bdc51987' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/modules/homeslider/homeslider.tpl',
-      1 => 1512131813,
+      1 => 1512313620,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '6141226535a215ff084ef45-33754614',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a22d16fedee51_31322767',
+  'unifunc' => 'content_5a24317544f675_06334821',
+  'variables' => 
+  array (
+    'page_name' => 0,
+    'homeslider_slides' => 0,
+    'slide' => 0,
+    'link' => 0,
+  ),
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a22d16fedee51_31322767')) {function content_5a22d16fedee51_31322767($_smarty_tpl) {?><!-- Module HomeSlider -->
+<?php if ($_valid && !is_callable('content_5a24317544f675_06334821')) {function content_5a24317544f675_06334821($_smarty_tpl) {?><!-- Module HomeSlider -->
     		<div id="homepage-slider">
 						<ul id="homeslider" style="max-height:673px;">
 															<li class="homeslider-container">

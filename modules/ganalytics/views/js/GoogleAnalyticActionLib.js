@@ -82,13 +82,13 @@ var GoogleAnalyticEnhancedECommerce = {
 	addToCart: function(Product) {
 		this.add(Product);
 		ga('ec:setAction', 'add');
-		ga('send', 'event', 'Koszyk', 'Dodanie do koszyka produktu ' + Product.name, Product.name + ", ID (" + Product.id + ")", Product.price); // Send data using an event.
+		ga('send', 'event', 'Koszyk', 'Dodanie do koszyka produktu ' + Product.name, Product.name + ", ID (" + Product.id + ")", Math.round(Product.price)); // Send data using an event.
 	},
 
 	removeFromCart: function(Product) {
 		this.add(Product);
 		ga('ec:setAction', 'remove');
-		ga('send', 'event', 'Koszyk', 'Usunięcie z koszyka produktu ' + Product.name, Product.name + ", ID (" + Product.id + ")", Product.price); // Send data using an event.
+		ga('send', 'event', 'Koszyk', 'Usunięcie z koszyka produktu ' + Product.name, Product.name + ", ID (" + Product.id + ")", Math.round(Product.price)); // Send data using an event.
 	},
 
 	addProductImpression: function(Product) {
@@ -129,7 +129,7 @@ var GoogleAnalyticEnhancedECommerce = {
 				list: Product.list
 			});
 
-			ga('send', 'event', 'Product Quick View', 'click', Product.list, {
+			ga('send', 'event', 'Produkty', 'Wyświetlenie strony produktu ' + Product.name, Product.name + ", ID (" + Product.id + ")", {
 				'hitCallback': function() {
 					return !ga.loaded;
 				}
@@ -144,7 +144,7 @@ var GoogleAnalyticEnhancedECommerce = {
 			list: Product.list
 		});
 
-		ga('send', 'event', 'Product Click', 'click', Product.list, {
+		ga('send', 'event', 'Produkty', 'Wyświetlenie strony produktu ' + Product.name, Product.name + ", ID (" + Product.id + ")", {
 			'nonInteraction': 1,
 			'hitCallback': function() {
 				return !ga.loaded;
@@ -157,7 +157,7 @@ var GoogleAnalyticEnhancedECommerce = {
 
 		//this.add(Product);
 		ga('ec:setAction', 'purchase', Order);
-		ga('send', 'event','Transaction','purchase', {
+		ga('send', 'event','Zamówienia', 'Wykonanie transakcji', 'Zamówienie nr ' + Order.id, {
 			'hitCallback': function() {
 				$.get(Order.url, {
 					orderid: Order.id,
@@ -169,10 +169,32 @@ var GoogleAnalyticEnhancedECommerce = {
 	},
 
 	addCheckout: function(Step) {
-		ga('ec:setAction', 'checkout', {
+		ga('ec:setAction', 'Checkout', {
 			'step': Step
 			//'option':'Visa'
 		});
-		//ga('send', 'pageview');
+		/*switch (Step) {
+			case 0:
+				ga('send', 'event', 'Finalizacja zamówienia', 'Wyświetlenie koszyka');
+				break;
+			case 1:
+				ga('send', 'event', 'Finalizacja zamówienia', 'Formularz adresu wysyłki');
+				break;
+			case 2:
+				ga('send', 'event', 'Finalizacja zamówienia', 'Wybór sposobu dostawy');
+				break;
+			case 3:
+				ga('send', 'event', 'Finalizacja zamówienia', 'Wybór metody płatności');
+				break;
+		}*/
+		if (Step == 0)
+			ga('send', 'event', 'Finalizacja zamówienia', 'Wyświetlenie koszyka');
+		else if (Step == 1)
+			ga('send', 'event', 'Finalizacja zamówienia', 'Formularz adresu wysyłki');
+		else if (Step == 2)
+			ga('send', 'event', 'Finalizacja zamówienia', 'Wybór sposobu dostawy');
+		else
+			ga('send', 'event', 'Finalizacja zamówienia', 'Wybór metody płatności');
+		//ga('send', 'event', 'Transakcja', 'Krok nr ' + Step);
 	}
 };

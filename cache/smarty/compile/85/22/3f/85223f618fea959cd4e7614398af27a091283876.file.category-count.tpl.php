@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-12-01 15:20:58
+<?php /* Smarty version Smarty-3.1.19, created on 2017-12-03 18:10:10
          compiled from "/var/www/html/themes/default-bootstrap/category-count.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:14945952955a21654a767416-88455422%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '85223f618fea959cd4e7614398af27a091283876' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/category-count.tpl',
-      1 => 1512131812,
+      1 => 1512313621,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a21654a777dd5_43164869',
   'variables' => 
   array (
     'category' => 0,
     'nb_products' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a21654a777dd5_43164869',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a21654a777dd5_43164869')) {function content_5a21654a777dd5_43164869($_smarty_tpl) {?>
 <span class="heading-counter"><?php if ((isset($_smarty_tpl->tpl_vars['category']->value)&&$_smarty_tpl->tpl_vars['category']->value->id==1)||(isset($_smarty_tpl->tpl_vars['nb_products']->value)&&$_smarty_tpl->tpl_vars['nb_products']->value==0)) {?><?php echo smartyTranslate(array('s'=>'There are no products in this category.'),$_smarty_tpl);?>

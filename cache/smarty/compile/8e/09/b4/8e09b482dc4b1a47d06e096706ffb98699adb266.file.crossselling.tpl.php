@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-14 17:46:23
+<?php /* Smarty version Smarty-3.1.19, created on 2017-12-03 18:09:58
          compiled from "/var/www/html/themes/default-bootstrap/modules/blockcart/crossselling.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:15343241175a0b1ddfd7b636-19507093%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8e09b482dc4b1a47d06e096706ffb98699adb266' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/modules/blockcart/crossselling.tpl',
-      1 => 1510664496,
+      1 => 1512313621,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a0b1de002e999_20407011',
   'variables' => 
   array (
     'orderProducts' => 0,
@@ -23,8 +25,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'PS_CATALOG_MODE' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a0b1de002e999_20407011',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a0b1de002e999_20407011')) {function content_5a0b1de002e999_20407011($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['orderProducts']->value)&&count($_smarty_tpl->tpl_vars['orderProducts']->value)>0) {?>
