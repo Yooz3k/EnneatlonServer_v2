@@ -1,0 +1,29 @@
+version: '2'
+services: 
+ mydatabase:
+  build:
+   context: .
+   dockerfile: dbDockerfile
+  ports:
+  - "3306"
+  container_name: mydatabase
+  volumes:
+   - ./website/backup.sql:/docker-entrypoint-initdb.d/backup.sql
+   - ./my-datavolume:/var/lib/mysql
+  environment:
+  - "MYSQL_ROOT_PASSWORD=1234"
+  restart: always
+ presta:
+  build:
+   context: .
+   dockerfile: prestaDockerFile
+  ports:
+  - "8888:80"
+  container_name: presta
+  links:
+  - "mydatabase"
+  volumes:
+  - "./website:/var/www/html"
+  environment:
+  - "DB_SERVER=mydatabase"
+  restart: always
