@@ -187,7 +187,7 @@ var GoogleAnalyticEnhancedECommerce = {
 
 		//this.add(Product);
 		ga('ec:setAction', 'Finalizacja zamówienia', Order);
-		ga('send', 'event','Finalizacja zamówienia', 'Wykonanie transakcji', 'Zamówienie nr ' + Order.id, {
+		ga('send', 'event','Finalizacja zamówienia', 'Wykonanie transakcji', 'Zamówienie nr ' + Order.id + ', za cenę ' + Math.round(Order.revenue) + " PLN", {
 			'hitCallback': function() {
 				$.get(Order.url, {
 					orderid: Order.id,

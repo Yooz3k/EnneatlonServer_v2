@@ -361,7 +361,7 @@
                         <p class="checkbox">
                             <input type="checkbox" name="cgv" id="cgv" value="1" {if $checkedTOS}checked="checked"{/if} />
                             <label for="cgv">{l s='I agree to the terms of service and will adhere to them unconditionally.'}</label>
-                            <a href="{$link_conditions|escape:'html':'UTF-8'}" class="iframe" rel="nofollow">{l s='(Read the Terms of Service)'}</a>
+                            <a onClick="ga('send', 'timing', 'Regulamin serwisu', 'Wyświetlenie regulaminu serwisu', Math.round(performance.now()));" href="{$link_conditions|escape:'html':'UTF-8'}" class="iframe" rel="nofollow">{l s='(Read the Terms of Service)'}</a>
                         </p>
                     </div>
                 {/if}
@@ -390,7 +390,7 @@
 						</a>
 					{/if}
 					{if isset($virtual_cart) && $virtual_cart || (isset($delivery_option_list) && !empty($delivery_option_list))}
-						<button type="submit" name="processCarrier" class="button btn btn-default standard-checkout button-medium">
+						<button onClick="ga('send', 'timing', 'Zamówienie', 'Przejście do realizacji zamówienia', Math.round(performance.now()));" type="submit" name="processCarrier" class="button btn btn-default standard-checkout button-medium">
 							<span>
 								{l s='Proceed to checkout'}
 								<i class="icon-chevron-right right"></i>

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-12-04 17:58:42
+<?php /* Smarty version Smarty-3.1.19, created on 2017-12-04 21:55:11
          compiled from "/var/www/html/themes/default-bootstrap/order-carrier.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:14649080015a257ec25e64a0-66153082%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:7622726355a25b62fd8f1b5-43493058%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '72dba06b9f34deeeef9d161a21c5f1f2367be734' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/order-carrier.tpl',
-      1 => 1512313618,
+      1 => 1512419015,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '14649080015a257ec25e64a0-66153082',
+  'nocache_hash' => '7622726355a25b62fd8f1b5-43493058',
   'function' => 
   array (
   ),
@@ -63,9 +63,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a257ec2921622_72680217',
+  'unifunc' => 'content_5a25b63018a700_30574613',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a257ec2921622_72680217')) {function content_5a257ec2921622_72680217($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a25b63018a700_30574613')) {function content_5a25b63018a700_30574613($_smarty_tpl) {?>
 <?php if (!$_smarty_tpl->tpl_vars['opc']->value) {?>
 	<?php $_smarty_tpl->_capture_stack[0][] = array('path', null, null); ob_start(); ?><?php echo smartyTranslate(array('s'=>'Shipping:'),$_smarty_tpl);?>
 <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);
@@ -515,7 +515,7 @@ if (!$_smarty_tpl->tpl_vars['address']->_loop) {
                             <input type="checkbox" name="cgv" id="cgv" value="1" <?php if ($_smarty_tpl->tpl_vars['checkedTOS']->value) {?>checked="checked"<?php }?> />
                             <label for="cgv"><?php echo smartyTranslate(array('s'=>'I agree to the terms of service and will adhere to them unconditionally.'),$_smarty_tpl);?>
 </label>
-                            <a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link_conditions']->value, ENT_QUOTES, 'UTF-8', true);?>
+                            <a onClick="ga('send', 'timing', 'Regulamin serwisu', 'Wyświetlenie regulaminu serwisu', Math.round(performance.now()));" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link_conditions']->value, ENT_QUOTES, 'UTF-8', true);?>
 " class="iframe" rel="nofollow"><?php echo smartyTranslate(array('s'=>'(Read the Terms of Service)'),$_smarty_tpl);?>
 </a>
                         </p>
@@ -556,7 +556,7 @@ if (!$_smarty_tpl->tpl_vars['address']->_loop) {
 						</a>
 					<?php }?>
 					<?php if (isset($_smarty_tpl->tpl_vars['virtual_cart']->value)&&$_smarty_tpl->tpl_vars['virtual_cart']->value||(isset($_smarty_tpl->tpl_vars['delivery_option_list']->value)&&!empty($_smarty_tpl->tpl_vars['delivery_option_list']->value))) {?>
-						<button type="submit" name="processCarrier" class="button btn btn-default standard-checkout button-medium">
+						<button onClick="ga('send', 'timing', 'Zamówienie', 'Przejście do realizacji zamówienia', Math.round(performance.now()));" type="submit" name="processCarrier" class="button btn btn-default standard-checkout button-medium">
 							<span>
 								<?php echo smartyTranslate(array('s'=>'Proceed to checkout'),$_smarty_tpl);?>
 
