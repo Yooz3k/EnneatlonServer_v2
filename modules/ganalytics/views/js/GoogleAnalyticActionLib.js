@@ -30,7 +30,7 @@ var GoogleAnalyticEnhancedECommerce = {
 	setCurrency: function(Currency) {
 		ga('set', '&cu', Currency);
 	},
-
+	
 	add: function(Product, Order, Impression) {
 		var Products = {};
 		var Orders = {};
@@ -72,11 +72,41 @@ var GoogleAnalyticEnhancedECommerce = {
 			ga('ec:addProduct', Products);
 		}
 	},
+	
+	replaceDiacritics: function(str) {
+
+	  var diacritics = [
+		{char: 'A', base: "Ą"},
+		{char: 'a', base: "ą"},
+		{char: 'E', base: "Ę"},
+		{char: 'e', base: "ę"},
+		{char: 'S', base: "Ś"},
+		{char: 's', base: "ś"},
+		{char: 'O', base: "Ó"},
+		{char: 'o', base: "ó"},
+		{char: 'L', base: "Ł"},
+		{char: 'l', base: "ł"},
+		{char: 'N', base: "Ń"},
+		{char: 'n', base: "ń"},
+		{char: 'C', base: "Ć"},
+		{char: 'c', base: "ć"},
+		{char: "Z", base: "Ż"},
+		{char: "z", base: "ż"},
+		{char: "Z", base: "Ź"},
+		{char: "z", base: "ź"}
+	  ]
+
+	  diacritics.forEach(function(letter){
+		str = str.replace(letter.base, letter.char);
+	  });
+
+	  return str;
+	},
 
 	addProductDetailView: function(Product) {
 		this.add(Product);
 		ga('ec:setAction', 'detail');
-		ga('send', 'event', 'Produkty', 'Wyświetlenie strony produktu ' + Product.name, Product.name + ", ID (" + Product.id + ")",{'nonInteraction': 1});
+		ga('send', 'event', 'Produkty', 'Wyświetlenie strony produktu ' + replaceDiacritics(Product.name), Product.name + ", ID (" + Product.id + ")",{'nonInteraction': 1});
 	},
 
 	addToCart: function(Product) {
@@ -156,8 +186,8 @@ var GoogleAnalyticEnhancedECommerce = {
 	addTransaction: function(Order) {
 
 		//this.add(Product);
-		ga('ec:setAction', 'purchase', Order);
-		ga('send', 'event','Zamówienia', 'Wykonanie transakcji', 'Zamówienie nr ' + Order.id, {
+		ga('ec:setAction', 'Finalizacja zamówienia', Order);
+		ga('send', 'event','Finalizacja zamówienia', 'Wykonanie transakcji', 'Zamówienie nr ' + Order.id, {
 			'hitCallback': function() {
 				$.get(Order.url, {
 					orderid: Order.id,
@@ -173,20 +203,7 @@ var GoogleAnalyticEnhancedECommerce = {
 			'step': Step
 			//'option':'Visa'
 		});
-		/*switch (Step) {
-			case 0:
-				ga('send', 'event', 'Finalizacja zamówienia', 'Wyświetlenie koszyka');
-				break;
-			case 1:
-				ga('send', 'event', 'Finalizacja zamówienia', 'Formularz adresu wysyłki');
-				break;
-			case 2:
-				ga('send', 'event', 'Finalizacja zamówienia', 'Wybór sposobu dostawy');
-				break;
-			case 3:
-				ga('send', 'event', 'Finalizacja zamówienia', 'Wybór metody płatności');
-				break;
-		}*/
+		
 		if (Step == 0)
 			ga('send', 'event', 'Finalizacja zamówienia', 'Wyświetlenie koszyka');
 		else if (Step == 1)
@@ -195,6 +212,5 @@ var GoogleAnalyticEnhancedECommerce = {
 			ga('send', 'event', 'Finalizacja zamówienia', 'Wybór sposobu dostawy');
 		else
 			ga('send', 'event', 'Finalizacja zamówienia', 'Wybór metody płatności');
-		//ga('send', 'event', 'Transakcja', 'Krok nr ' + Step);
 	}
 };

@@ -38,6 +38,9 @@ $(document).ready(function(){
 
 	$('.homeslider-description').click(function () {
 		window.location.href = $(this).prev('a').prop('href');
+		
+		ga('ec:setAction', 'promo_click');
+		ga('send', 'event', 'Internal Promotions', 'click', 'Promocja - slider');
 	});
 
 	if ($('#htmlcontent_top').length > 0)

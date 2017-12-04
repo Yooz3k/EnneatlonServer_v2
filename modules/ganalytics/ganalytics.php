@@ -375,13 +375,19 @@ class Ganalytics extends Module
 		if (version_compare(_PS_VERSION_, '1.5', '<'))
 		{
 			if ($controller_name == 'orderconfirmation')
+			{
 				$this->eligible = 1;
+			//	$ga_scripts .= $this->addPaymentConfirmation();
+			}
 		}
 		else
 		{
 			$confirmation_hook_id = (int)Hook::getIdByName('orderConfirmation');
 			if (isset(Hook::$executed_hooks[$confirmation_hook_id]))
+			{
 				$this->eligible = 1;
+			//	$ga_scripts .= $this->addPaymentConfirmation();
+			}
 		}
 
 		if (isset($products) && count($products) && $controller_name != 'index')
@@ -548,7 +554,12 @@ class Ganalytics extends Module
 		}
 		return $ga_product;
 	}
-
+	/*
+	public function addPaymentConfirmation()
+	{
+		return $js.'MBG.addPaymentConfirmation();';
+	}
+	*/
 	/**
 	 * add order transaction
 	 */
