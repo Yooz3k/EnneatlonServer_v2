@@ -38,9 +38,17 @@ $(document).ready(function(){
 
 	$('.homeslider-description').click(function () {
 		window.location.href = $(this).prev('a').prop('href');
-		
-		ga('ec:setAction', 'promo_click');
-		ga('send', 'event', 'Internal Promotions', 'click', 'Promocja - slider');
+		ga('ec:addPromo', {
+    'id': 'PROMO_SLIDER',
+    'name': 'Slider Sale',
+    'creative': 'slider',
+    'position': 'home_slider'
+  });
+
+  // Send the promo_click action with an event.
+  ga('ec:setAction', 'promo_click');
+  ga('send', 'event', 'Internal Promotions', 'Kliknięcie na slajder', 'Slider Sale');
+
 	});
 
 	if ($('#htmlcontent_top').length > 0)
