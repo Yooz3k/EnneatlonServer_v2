@@ -25,6 +25,7 @@
 */
 
 $(document).ready(function(){
+	
 
 	if (typeof(homeslider_speed) == 'undefined')
 		homeslider_speed = 500;
@@ -40,14 +41,13 @@ $(document).ready(function(){
 		window.location.href = $(this).prev('a').prop('href');
 		ga('ec:addPromo', {
     'id': 'PROMO_SLIDER',
-    'name': 'Slider Sale',
-    'creative': 'slider',
+    'name': 'Slider Promocja',
     'position': 'home_slider'
   });
 
   // Send the promo_click action with an event.
   ga('ec:setAction', 'promo_click');
-  ga('send', 'event', 'Internal Promotions', 'Kliknięcie na slajder', 'Slider Sale');
+  ga('send', 'event', 'Promocje wewnętrzne', 'Kliknięcie na slajder', 'Slider Promocja');
 
 	});
 

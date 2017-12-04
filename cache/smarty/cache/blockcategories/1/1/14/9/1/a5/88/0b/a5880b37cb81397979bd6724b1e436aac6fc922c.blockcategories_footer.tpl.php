@@ -18,10 +18,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'nocache_hash' => '12682459595a21544ac7c0c0-16082801',
   'cache_lifetime' => 31536000,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a250dcfb0c978_31014076',
+  'unifunc' => 'content_5a25d1cfdde479_47466076',
   'has_nocache_code' => false,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a250dcfb0c978_31014076')) {function content_5a250dcfb0c978_31014076($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a25d1cfdde479_47466076')) {function content_5a25d1cfdde479_47466076($_smarty_tpl) {?>
 <!-- Block categories module -->
 <section class="blockcategories_footer footer-block col-xs-12 col-sm-2">
 	<h4>Kategorie</h4>
@@ -31,7 +31,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 												
 <li >
 	<a 
-	href="http://192.168.99.100:8888/3-bieganie-fitness" class="selected" title="">
+	href="http://192.168.99.100:8888/3-bieganie-fitness" title="">
 		Bieganie/fitness
 	</a>
 			<ul>
@@ -313,7 +313,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 																
 <li >
 	<a 
-	href="http://192.168.99.100:8888/9-badminton" title="">
+	href="http://192.168.99.100:8888/9-badminton" class="selected" title="">
 		Badminton
 	</a>
 			<ul>
