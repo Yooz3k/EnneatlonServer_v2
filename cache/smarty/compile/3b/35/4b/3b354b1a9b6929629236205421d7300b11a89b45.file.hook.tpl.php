@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-12-04 21:56:03
+<?php /* Smarty version Smarty-3.1.19, created on 2017-12-05 17:13:45
          compiled from "/var/www/html/modules/themeconfigurator/views/templates/hook/hook.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:17021727065a25b6632404c2-49966716%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:16394995175a26c5b9b33bf6-75023236%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '3b354b1a9b6929629236205421d7300b11a89b45' => 
     array (
       0 => '/var/www/html/modules/themeconfigurator/views/templates/hook/hook.tpl',
-      1 => 1512313642,
+      1 => 1512490008,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '17021727065a25b6632404c2-49966716',
+  'nocache_hash' => '16394995175a26c5b9b33bf6-75023236',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a25b6633a43e0_42762293',
+  'unifunc' => 'content_5a26c5b9d3c859_16955020',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a25b6633a43e0_42762293')) {function content_5a25b6633a43e0_42762293($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a26c5b9d3c859_16955020')) {function content_5a26c5b9d3c859_16955020($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['htmlitems']->value)&&$_smarty_tpl->tpl_vars['htmlitems']->value) {?>
 <div id="htmlcontent_<?php echo mb_convert_encoding(htmlspecialchars($_smarty_tpl->tpl_vars['hook']->value, ENT_QUOTES, 'UTF-8', true), "HTML-ENTITIES", 'UTF-8');?>
 "<?php if ($_smarty_tpl->tpl_vars['hook']->value=='footer') {?> class="footer-block col-xs-12 col-sm-4"<?php }?>>
@@ -47,7 +47,8 @@ $_smarty_tpl->tpl_vars['hItem']->_loop = true;
  col-xs-4">
 			<?php }?>
 					<?php if ($_smarty_tpl->tpl_vars['hItem']->value['url']) {?>
-						<a href="<?php echo mb_convert_encoding(htmlspecialchars($_smarty_tpl->tpl_vars['hItem']->value['url'], ENT_QUOTES, 'UTF-8', true), "HTML-ENTITIES", 'UTF-8');?>
+						<a onClick="ga('ec:addPromo', { 'id': 'PROMO_BANER', 'name': 'Baner boczny', 'position': 'panel_boczny'});" onClick="ga('ec:setAction', 'promo_click');" onClick="ga('send', 'event', 'Promocje wewnętrzne', 'Baner boczny', 'Kategoria ' + '<?php echo mb_convert_encoding(htmlspecialchars($_smarty_tpl->tpl_vars['hItem']->value['title'], ENT_QUOTES, 'UTF-8', true), "HTML-ENTITIES", 'UTF-8');?>
+');" href="<?php echo mb_convert_encoding(htmlspecialchars($_smarty_tpl->tpl_vars['hItem']->value['url'], ENT_QUOTES, 'UTF-8', true), "HTML-ENTITIES", 'UTF-8');?>
 " class="item-link"<?php if ($_smarty_tpl->tpl_vars['hItem']->value['target']==1) {?> onclick="return !window.open(this.href);"<?php }?> title="<?php echo mb_convert_encoding(htmlspecialchars($_smarty_tpl->tpl_vars['hItem']->value['title'], ENT_QUOTES, 'UTF-8', true), "HTML-ENTITIES", 'UTF-8');?>
 ">
 					<?php }?>

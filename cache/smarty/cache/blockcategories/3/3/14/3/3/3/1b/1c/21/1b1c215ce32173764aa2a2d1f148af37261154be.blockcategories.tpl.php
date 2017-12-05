@@ -5,23 +5,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1b1c215ce32173764aa2a2d1f148af37261154be' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/modules/blockcategories/blockcategories.tpl',
-      1 => 1512313621,
+      1 => 1512465949,
       2 => 'file',
     ),
     '5c53737510b61f5e57aa4fb383106c38f28d329a' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/modules/blockcategories/category-tree-branch.tpl',
-      1 => 1512313621,
+      1 => 1512465949,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '16599180485a21544a74b6b6-48814158',
   'cache_lifetime' => 31536000,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a250dcd0918a8_12889489',
+  'unifunc' => 'content_5a26b17e866fd9_32475581',
   'has_nocache_code' => false,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a250dcd0918a8_12889489')) {function content_5a250dcd0918a8_12889489($_smarty_tpl) {?><!-- Block categories module -->
+<?php if ($_valid && !is_callable('content_5a26b17e866fd9_32475581')) {function content_5a26b17e866fd9_32475581($_smarty_tpl) {?><!-- Block categories module -->
 <div id="categories_block_left" class="block">
 	<h2 class="title_block">
 					Bieganie/fitness

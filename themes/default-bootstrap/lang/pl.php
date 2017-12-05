@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 global $_LANG;
 $_LANG = array();
@@ -759,7 +759,7 @@ $_LANG['password_ad6de86f2f344d447d78a139fc16bd72'] = 'Wprowadź proszę adres e
 $_LANG['password_b357b524e740bc85b9790a0712d84a30'] = 'Adres e-mail';
 $_LANG['password_0d0e2934af7d3bc4e7263fcb1f9bc51c'] = 'Odzyskaj hasło';
 $_LANG['password_95e6faaba5e8b016e5f9bcf5ea6c8270'] = 'Powrót do logowania';
-$_LANG['prices-drop_c8f312df214e2295809027c6ca79d232'] = 'Spadek ceny';
+$_LANG['prices-drop_c8f312df214e2295809027c6ca79d232'] = 'Promocje';
 $_LANG['prices-drop_701ddcee4495ef7a80e99750caf63941'] = 'Aktualnie brak promocji.';
 $_LANG['product-compare_7eece51cf3938103677db7a5051ef8f5'] = 'Porównaj';
 $_LANG['product-compare_216adaf4e98dc62ec3abeab51b9fc57f'] = 'Wybierz proszę przynajmniej jeden produkt';
@@ -966,7 +966,7 @@ $_LANG['sitemap_9ff0635f5737513b1a6f559ac2bff745'] = 'Nowe produkty';
 $_LANG['sitemap_c70dd243e00d616ac8d4fa6949e46b26'] = 'Zobacz najlepiej sprzedające się produkty';
 $_LANG['sitemap_01f7ac959c1e6ebbb2e0ee706a7a5255'] = 'Najczęściej kupowane';
 $_LANG['sitemap_d5ccde648010f8198e3506b1e4e1d318'] = 'Zobacz produkty po obniżce';
-$_LANG['sitemap_c8f312df214e2295809027c6ca79d232'] = 'Spadek ceny';
+$_LANG['sitemap_c8f312df214e2295809027c6ca79d232'] = 'Promocje';
 $_LANG['sitemap_34305c555e765cb6b4fbb20d4f4d6121'] = 'Zobacz listę producentów';
 $_LANG['sitemap_2377be3c2ad9b435ba277a73f0f1ca76'] = 'Producenci';
 $_LANG['sitemap_2a75c8350e354ef6e2a842dfdf299214'] = 'Zobacz listę dostawców';

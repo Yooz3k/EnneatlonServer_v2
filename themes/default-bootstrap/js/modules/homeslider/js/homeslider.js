@@ -41,13 +41,13 @@ $(document).ready(function(){
 		window.location.href = $(this).prev('a').prop('href');
 		ga('ec:addPromo', {
     'id': 'PROMO_SLIDER',
-    'name': 'Slider Promocja',
-    'position': 'home_slider'
+    'name': 'Slider',
+    'position': 'panel_centralny'
   });
 
   // Send the promo_click action with an event.
   ga('ec:setAction', 'promo_click');
-  ga('send', 'event', 'Promocje wewnętrzne', 'Kliknięcie na slajder', 'Slider Promocja');
+  ga('send', 'event', 'Promocje wewnętrzne', 'Slider', 'Slider centralny');
 
 	});
 

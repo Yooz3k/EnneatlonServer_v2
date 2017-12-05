@@ -5,17 +5,38 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1d89e8014f347982d948469f9543b359301e5949' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/modules/blockcms/blockcms.tpl',
-      1 => 1512313621,
+      1 => 1512465949,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '9578339885a21544a8a32a3-45196500',
   'cache_lifetime' => 31536000,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a25c6e91d2e37_37174558',
+  'unifunc' => 'content_5a26b123075710_20774896',
+  'variables' => 
+  array (
+    'block' => 0,
+    'cms_titles' => 0,
+    'cms_key' => 0,
+    'cms_title' => 0,
+    'cms_page' => 0,
+    'link' => 0,
+    'show_price_drop' => 0,
+    'PS_CATALOG_MODE' => 0,
+    'show_new_products' => 0,
+    'show_best_sales' => 0,
+    'display_stores_footer' => 0,
+    'show_contact' => 0,
+    'contact_url' => 0,
+    'cmslinks' => 0,
+    'cmslink' => 0,
+    'show_sitemap' => 0,
+    'footer_text' => 0,
+    'display_poweredby' => 0,
+  ),
   'has_nocache_code' => true,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a25c6e91d2e37_37174558')) {function content_5a25c6e91d2e37_37174558($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a26b123075710_20774896')) {function content_5a26b123075710_20774896($_smarty_tpl) {?>
 	<!-- Block CMS module footer -->
 	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 		<h4>Informacja</h4>

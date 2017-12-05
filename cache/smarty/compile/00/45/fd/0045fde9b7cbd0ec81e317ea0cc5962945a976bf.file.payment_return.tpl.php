@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-12-04 21:55:47
+<?php /* Smarty version Smarty-3.1.19, created on 2017-12-05 16:04:23
          compiled from "/var/www/html/themes/default-bootstrap/modules/bankwire/views/templates/hook/payment_return.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:16048001055a25b653776991-83538417%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:13338563655a26b577dc1377-71345814%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0045fde9b7cbd0ec81e317ea0cc5962945a976bf' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/modules/bankwire/views/templates/hook/payment_return.tpl',
-      1 => 1512313621,
+      1 => 1512465949,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '16048001055a25b653776991-83538417',
+  'nocache_hash' => '13338563655a26b577dc1377-71345814',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a25b6537c4015_42883790',
+  'unifunc' => 'content_5a26b577e1ad86_41345976',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a25b6537c4015_42883790')) {function content_5a25b6537c4015_42883790($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a26b577e1ad86_41345976')) {function content_5a26b577e1ad86_41345976($_smarty_tpl) {?>
 
 <?php if ($_smarty_tpl->tpl_vars['status']->value=='ok') {?>
 	<p class="alert alert-success"><?php echo smartyTranslate(array('s'=>'Your order on %s is complete.','sprintf'=>$_smarty_tpl->tpl_vars['shop_name']->value,'mod'=>'bankwire'),$_smarty_tpl);?>

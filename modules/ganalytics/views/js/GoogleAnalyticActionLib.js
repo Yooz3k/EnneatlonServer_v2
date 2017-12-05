@@ -186,7 +186,7 @@ var GoogleAnalyticEnhancedECommerce = {
 	addTransaction: function(Order) {
 
 		//this.add(Product);
-		ga('ec:setAction', 'Finalizacja zamówienia', Order);
+		ga('ec:setAction', 'purchase', Order);
 		ga('send', 'event','Finalizacja zamówienia', 'Wykonanie transakcji', 'Zamówienie nr ' + Order.id + ', za cenę ' + Math.round(Order.revenue) + " PLN", {
 			'hitCallback': function() {
 				$.get(Order.url, {
@@ -199,7 +199,7 @@ var GoogleAnalyticEnhancedECommerce = {
 	},
 
 	addCheckout: function(Step) {
-		ga('ec:setAction', 'Checkout', {
+		ga('ec:setAction', 'checkout', {
 			'step': Step
 			//'option':'Visa'
 		});

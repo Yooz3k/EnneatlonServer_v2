@@ -5,23 +5,30 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a5880b37cb81397979bd6724b1e436aac6fc922c' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/modules/blockcategories/blockcategories_footer.tpl',
-      1 => 1512313621,
+      1 => 1512465949,
       2 => 'file',
     ),
     '5c53737510b61f5e57aa4fb383106c38f28d329a' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/modules/blockcategories/category-tree-branch.tpl',
-      1 => 1512313621,
+      1 => 1512465949,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '12682459595a21544ac7c0c0-16082801',
   'cache_lifetime' => 31536000,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a25c6e90f3d70_41722001',
+  'unifunc' => 'content_5a26b122ce1d30_28418855',
+  'variables' => 
+  array (
+    'isDhtml' => 0,
+    'blockCategTree' => 0,
+    'child' => 0,
+    'numberColumn' => 0,
+  ),
   'has_nocache_code' => false,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a25c6e90f3d70_41722001')) {function content_5a25c6e90f3d70_41722001($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a26b122ce1d30_28418855')) {function content_5a26b122ce1d30_28418855($_smarty_tpl) {?>
 <!-- Block categories module -->
 <section class="blockcategories_footer footer-block col-xs-12 col-sm-2">
 	<h4>Kategorie</h4>
