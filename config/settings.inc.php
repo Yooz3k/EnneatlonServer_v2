@@ -1,6 +1,6 @@
 <?php
 define('_DB_SERVER_', 'mydatabase');
-define('_DB_NAME_', 'mysql');
+define('_DB_NAME_', 'my_presta_database');
 define('_DB_USER_', 'root');
 define('_DB_PASSWD_', '1234');
 define('_DB_PREFIX_', 'ps_');
