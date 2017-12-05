@@ -106,7 +106,7 @@ var GoogleAnalyticEnhancedECommerce = {
 	addProductDetailView: function(Product) {
 		this.add(Product);
 		ga('ec:setAction', 'detail');
-		ga('send', 'event', 'Produkty', 'Wyświetlenie strony produktu ' + replaceDiacritics(Product.name), Product.name + ", ID (" + Product.id + ")",{'nonInteraction': 1});
+		ga('send', 'event', 'Produkty', 'Wyświetlenie strony produktu ' + Product.name, Product.name + ", ID (" + Product.id + ")",{'nonInteraction': 1});
 	},
 
 	addToCart: function(Product) {

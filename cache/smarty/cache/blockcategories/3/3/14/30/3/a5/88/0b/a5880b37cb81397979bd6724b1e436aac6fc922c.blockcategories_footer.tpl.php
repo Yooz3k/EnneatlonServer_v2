@@ -18,17 +18,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'nocache_hash' => '12682459595a21544ac7c0c0-16082801',
   'cache_lifetime' => 31536000,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a26c97be84755_44079399',
-  'variables' => 
-  array (
-    'isDhtml' => 0,
-    'blockCategTree' => 0,
-    'child' => 0,
-    'numberColumn' => 0,
-  ),
+  'unifunc' => 'content_5a26c7804bf990_91735388',
   'has_nocache_code' => false,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a26c97be84755_44079399')) {function content_5a26c97be84755_44079399($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a26c7804bf990_91735388')) {function content_5a26c7804bf990_91735388($_smarty_tpl) {?>
 <!-- Block categories module -->
 <section class="blockcategories_footer footer-block col-xs-12 col-sm-2">
 	<h4>Kategorie</h4>
@@ -187,7 +180,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 																
 <li class="last">
 	<a 
-	href="http://192.168.99.100:8888/27-narty" class="selected" title="">
+	href="http://192.168.99.100:8888/27-narty" title="">
 		Narty
 	</a>
 	</li>

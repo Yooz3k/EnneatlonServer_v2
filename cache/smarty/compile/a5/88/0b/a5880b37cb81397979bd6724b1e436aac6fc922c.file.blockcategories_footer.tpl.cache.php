@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-12-05 15:45:54
+<?php /* Smarty version Smarty-3.1.19, created on 2017-12-05 17:29:47
          compiled from "/var/www/html/themes/default-bootstrap/modules/blockcategories/blockcategories_footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:12682459595a21544ac7c0c0-16082801%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
