@@ -1,5 +1,5 @@
 version: '2'
-services: 
+services:
  mydatabase:
   build:
    context: .
@@ -7,11 +7,9 @@ services:
   ports:
   - "3306"
   container_name: mydatabase
-  volumes:
-   - ./website/backup.sql:/docker-entrypoint-initdb.d/backup.sql
-   - ./my-datavolume:/var/lib/mysql
   environment:
   - "MYSQL_ROOT_PASSWORD=1234"
+  - "MYSQL_DATABASE=my_presta_database"
   restart: always
  presta:
   build:
@@ -26,4 +24,7 @@ services:
   - "./website:/var/www/html"
   environment:
   - "DB_SERVER=mydatabase"
+  - "DB_USER=root"
+  - "DB_PASSWD=1234"
+  - "DB_NAME=my_presta_database"
   restart: always

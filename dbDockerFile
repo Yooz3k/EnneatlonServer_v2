@@ -1,2 +1,3 @@
 FROM mysql:latest
+COPY ./website/backup.sql /docker-entrypoint-initdb.d/backup.sql
 EXPOSE 3306

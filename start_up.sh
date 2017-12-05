@@ -7,4 +7,3 @@ docker rmi beenneatlon_presta
 docker rmi beenneatlon_mydatabase
 docker-compose build
 docker-compose up -d
-cat website/backup.sql | docker exec -i mydatabase /usr/bin/mysql -u root --password=1234 mysql
