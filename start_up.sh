@@ -6,4 +6,4 @@ docker rm $(docker ps -a -q)
 docker rmi beenneatlon_presta
 docker rmi beenneatlon_mydatabase
 docker-compose build
-docker-compose up -d
+docker-compose up
