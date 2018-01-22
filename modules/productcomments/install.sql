@@ -69,7 +69,7 @@ INSERT IGNORE INTO `PREFIX_product_comment_criterion` VALUES ('1', '1', '1');
 
 INSERT IGNORE INTO `PREFIX_product_comment_criterion_lang` (`id_product_comment_criterion`, `id_lang`, `name`)
   (
-    SELECT '1', l.`id_lang`, 'Quality'
+    SELECT '1', l.`id_lang`, 'Ocena'
     FROM `PREFIX_lang` l
   );
 

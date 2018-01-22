@@ -1,0 +1,20 @@
+*ERROR* 	2018/01/22 - 11:07:45: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/22 - 11:08:17: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/22 - 11:08:28: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/22 - 11:08:28: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/22 - 11:09:59: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/22 - 11:09:59: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/22 - 14:28:35: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/22 - 14:28:35: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection refused at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/22 - 14:53:47: Property ProductComment->content is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2018/01/22 - 14:53:49: Property ProductComment->content is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2018/01/22 - 14:53:50: Property ProductComment->content is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2018/01/22 - 14:53:51: Property ProductComment->content is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2018/01/22 - 14:53:51: Property ProductComment->content is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2018/01/22 - 14:53:51: Property ProductComment->content is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2018/01/22 - 14:53:52: Property ProductComment->content is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2018/01/22 - 14:53:52: Property ProductComment->content is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2018/01/22 - 15:05:03: Property ProductComment->content is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2018/01/22 - 15:05:25: Property ProductComment->content is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2018/01/22 - 15:05:33: Property ProductComment->content is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2018/01/22 - 15:05:44: Property ProductComment->content is empty at line 917 in file classes/ObjectModel.php
