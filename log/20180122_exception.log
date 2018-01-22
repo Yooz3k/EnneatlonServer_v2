@@ -18,3 +18,5 @@
 *ERROR* 	2018/01/22 - 15:05:25: Property ProductComment->content is empty at line 917 in file classes/ObjectModel.php
 *ERROR* 	2018/01/22 - 15:05:33: Property ProductComment->content is empty at line 917 in file classes/ObjectModel.php
 *ERROR* 	2018/01/22 - 15:05:44: Property ProductComment->content is empty at line 917 in file classes/ObjectModel.php
+*ERROR* 	2018/01/22 - 21:49:20: Shop not found at line 404 in file classes/shop/Shop.php
+*ERROR* 	2018/01/22 - 21:49:38: Shop not found at line 404 in file classes/shop/Shop.php
