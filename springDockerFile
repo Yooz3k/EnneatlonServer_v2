@@ -1,0 +1,6 @@
+FROM java:8
+COPY EnneatlonRecommend /usr/src/enneatlon
+WORKDIR /usr/src/enneatlon
+RUN chmod 777 -R .
+CMD sh mvnw package && java -jar target/enneatlon-0.0.1-SNAPSHOT.jar
+EXPOSE 8080

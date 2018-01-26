@@ -72,8 +72,17 @@ class BlockViewed extends Module
 
 	public function hookRightColumn($params)
 	{
-		$productsViewed = (isset($params['cookie']->viewed) && !empty($params['cookie']->viewed)) ? array_slice(array_reverse(explode(',', $params['cookie']->viewed)), 0, Configuration::get('PRODUCTS_VIEWED_NBR')) : array();
+	//	$productsViewed = (isset($params['cookie']->viewed) && !empty($params['cookie']->viewed)) ? array_slice(array_reverse(explode(',', $params['cookie']->viewed)), 0, Configuration::get('PRODUCTS_VIEWED_NBR')) : array();
 
+	//	$productsTest = array(5, 15, 25, 35, 45);
+		$productsViewed;
+		$clientId = (int)$this->context->customer->id;
+		$url = 'http://springboot:8080/recommend/users/' . $clientId;
+		$json = file_get_contents($url);
+		$result = json_decode($json, TRUE);
+	//	$productsViewed = explode(',', $result);
+		$productsViewed = [$result[0], $result[1], $result[2], $result[3], $result[4]];
+	
 		if (count($productsViewed))
 		{
 			$defaultCover = Language::getIsoById($params['cookie']->id_lang).'-default';
